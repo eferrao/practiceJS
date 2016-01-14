@@ -9,7 +9,7 @@ Running time
 
 
 Terminology:
-Array indices 
+Array Indices 
 Input
 Output
 
