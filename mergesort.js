@@ -16,7 +16,7 @@ function merge(left, right){
 			newArray.push(left[i]);
 			left.shift() 
 			console.log(newArray)
-			console.log(left)
+			
 			console.log("___")
 		} else {
 			newArray.push(right[j]);
