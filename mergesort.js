@@ -16,14 +16,12 @@ function merge(left, right){
 			newArray.push(left[i]);
 			left.shift() 
 			console.log(newArray)
-			
 			console.log("___")
 		} else {
 			newArray.push(right[j]);
 			newArray.push(right[j]);
 			right.shift() 
 			console.log(newArray)
-			console.log(right)
 			console.log("___")
 		}
 	}
