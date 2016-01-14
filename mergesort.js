@@ -9,15 +9,22 @@ function merge(left, right){
 	var j = 0; 
 
 	while (i < left.length && j < right.length){
-		console.log("inside 1")
+		console.log("left[i]: "+left[i])
+		console.log("right[j]: "+right[j])
+		
 		if (left[i]<right[j]){
-			console.log("inside 2")
-			newArray.push(left[i]); 
-			i = i+1;
+			newArray.push(left[i]);
+			left.shift() 
+			console.log(newArray)
+			console.log(left)
+			console.log("___")
 		} else {
-			console.log("inside 3")
 			newArray.push(right[j]);
-			j = j+1;
+			newArray.push(right[j]);
+			right.shift() 
+			console.log(newArray)
+			console.log(right)
+			console.log("___")
 		}
 	}
 	console.log(newArray.concat(left.slice(i)).concat(right.slice(j))); 
