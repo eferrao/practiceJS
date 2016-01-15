@@ -12,7 +12,7 @@ Terminology:
 Array Indices 
 Input
 Output
-
+Asymptotically tight
 
 
 Simple sorting:
