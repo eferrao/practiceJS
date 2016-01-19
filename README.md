@@ -9,10 +9,10 @@ Running time
 
 
 Terminology:
-Array indices 
+Array Indices 
 Input
 Output
-
+Asymptotically tight
 
 
 Simple sorting:
@@ -22,3 +22,8 @@ Insertion Sort
 Design considerations:
 Incremental algorithms
 Divide-and-Conquer algorithms
+
+Algo math measurements:
+Big-omega lower bound
+Big-O upper bound
+
